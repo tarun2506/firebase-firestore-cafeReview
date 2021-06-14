@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(175, 4, 109);
+}
+
+.content {
+  margin: 0rem auto;
+  background: #fff;
+  width: 60%;
+  padding: 20px 30px;
+  border-top-right-radius: 5rem !important;
+  border-radius: 1rem;
+  background-color: aqua;
+  box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  margin-top: 2rem;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 20px;
+  background: #f6f6f6;
+  font-size: 20px;
+  color: #555;
+  position: relative;
+  border-bottom: 1px solid #e6e6e6;
+  height: 2rem;
+}
+
+li:nth-child(even) {
+  padding: 20px;
+  background: #f2f2f2;
+}
+
+li span {
+  display: block;
+}
+
+li span:nth-child(2) {
+  font-size: 16px;
+  margin-top: 6px;
+  color: #999;
+}
+
+li div {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  background: rgba(255, 255, 255, 0.6);
+  width: 40px;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form input {
+  float: left;
+  width: 38%;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  margin: 0 1%;
+  padding: 10px;
+  display: block;
+  box-sizing: border-box;
+  font-size: 18px;
+  background: transparent;
+}
+
+form input:focus {
+  outline: none;
+  border-bottom: 3px solid rgb(175, 4, 109);
+  padding-bottom: 8px;
+  transition: all ease 0.2s;
+}
+
+form:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+button {
+  border: 0;
+  background: #fff;
+  border-radius: 10px;
+  padding: 13px;
+  width: 14%;
+  box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  font-family: ubuntu;
+  letter-spacing: 1px;
+  color: rgb(87, 87, 87);
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgb(15, 72, 119);
+  transition: all 1s ease 0s;
+}
+
+button:hover {
+  background-color: rgb(175, 4, 109);
+}
